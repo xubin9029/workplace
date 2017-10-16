@@ -2,3 +2,16 @@
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo apt-get update
 sudo apt-get install shadowsocks-qt5
+
+
+switchyomega扩展程序安装
+百度，下载，拖入chrome://extensions 页面
+
+Rule List Config
+AutoProxy
+Rule List URL：https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
+download profile now
+
+new profile - proxy profiel - create - protocol(socks5)-server(127.0.0.1) 
+
+auto switch - Rule list rules -ss
